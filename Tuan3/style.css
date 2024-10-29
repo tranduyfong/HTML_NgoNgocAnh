@@ -1,0 +1,27 @@
+table, th, td{
+    border:1px solid rgb(239, 233, 233);
+}
+table{
+    border-collapse:collapse;
+}
+
+.color-background {
+    color: white;
+    background-color: #32a5e7;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+}
+
+.bg-color {
+    color: #32a5e7;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+}
+
+.color-bg {
+    background-color: #cfe2ff;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    border: 2px solid #469ecf;
+}

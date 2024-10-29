@@ -1,0 +1,25 @@
+h3 {
+    color: darkslateblue;
+    background-color: green;
+}
+
+/* #tittle {
+    background-color: black;
+}
+
+.tittle-02 {
+    color: green;
+    background-color: aliceblue;
+} */
+
+.tittle {
+    color: red;
+    margin-top: 50px;
+    padding: 10%;
+    background-color: aqua;
+}
+
+.tittle-02 {
+    color:  blue;
+    margin-top: 30px;
+}

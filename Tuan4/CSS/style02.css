@@ -1,0 +1,63 @@
+.main {
+    font-size: large;
+    width: 30%;
+    margin: 30px auto;
+    border-radius: 15px;
+    border: 1px solid #000;
+}
+
+.title {
+    font-weight: bold;
+    background-color: #1babb6;
+    text-align: center;
+    color: white;
+    padding: 8px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.information {
+    font-weight: bold;
+    margin: 30px 20px 30px 20px;
+}
+
+.button {
+    background-color: red;
+    color: white;
+    width: 140px;
+    height: 60px;
+    border-radius: 20px;
+    border: 0px ;
+    margin: 0px 200px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.button:hover {
+    background-color: #281c1a;
+}
+.numberPhone, .yourEmail, .register, .service, .reCaptcha{
+    margin-top: 10px;
+}
+
+.reCaptcha {
+    font-weight: lighter;
+    width: 210px;
+    height: 75px;
+    padding: 10px;
+    border: 1px solid #c0b3b3;
+    background-color: #f9f9f9;
+    align-items: center;
+}
+
+.image {
+    margin: -65px 0px 0px 145px;
+    width: 20px;
+    height: 40px;
+}
+
+.note {
+    margin-left: 145px;
+}
+.note-02 {
+    margin-left: 145px;
+    margin-top: -12px;
+}

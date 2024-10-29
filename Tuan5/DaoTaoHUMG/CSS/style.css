@@ -1,0 +1,224 @@
+.header-list {
+    background-color: #37a7e8;
+    width: auto;
+    height: 50px;
+}
+.header-list ul {
+    margin-top: 20px;
+}
+.header-list ul li {
+    display: inline;
+    margin-right: 30px;
+}
+.header-list ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+/* main */
+.main {
+    display: flex;
+    background-color: #e1dcdc;
+    height: 1120px;
+}
+.main .left-main {
+    width: 85%;
+    height: 1000px;
+    margin-right: 20px;
+}
+.main .right-main {
+    width: 15%;
+    height: 1000px;
+}
+/* left main */
+.left-main .news {
+    width: 100%;
+    height: 40%;
+    margin-bottom: 20px;
+}
+.left-main .news .header-news, .header-guide, .header-noti, .header-login, .header-install {
+    background-color: #37a7e8;
+    width: 100%;
+    height: 40px;
+    border-radius: 3px 3px 0px 0px;
+}
+.left-main .news .header-news, .header-guide, .header-install, .header-noti, .header-login span {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+}
+.left-main .news .main-news ul {
+    margin-left: -35px;
+}
+.left-main .news .main-news ul li {
+    display: inline;
+    margin-right: 5px;
+}
+.left-main .noti {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 20px;
+}
+.main-noti {
+    background-color: white;
+    height: 460px;
+}
+.main-noti .inner-main {
+    margin-left: 10px;
+    margin-top: 5px;
+    display: flex;
+}
+.left-main .main-noti .inner-main .main-noti-01 {
+    width: 33%;
+    border-right: 1px solid #d6d6d6 ;
+}
+.inner-main .main-noti-01 a {
+    text-decoration: none;
+    color: black;
+}
+.text-right {
+    margin-left: 275px;
+    font-size: 14px;
+    font-style: italic;
+}
+.inner-main .main-noti-01 a .title-main span {
+    font-size: 18px;
+    color: #37a7e8;
+    font-weight: bold;
+}
+.inner-main .main-noti-01 a .title-main p {
+    font-size: 19px;
+}
+.list-main {
+    width: 100%;
+    margin-right: 20px;
+}
+.list-main ul {
+    margin-left: -40px;
+}
+.list-main ul li {
+    border-bottom: 1px solid #cbcdd0;
+    margin-bottom: 10px;
+    list-style: none;
+}
+.list-main ul li a {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #363636;
+    display: flex
+}
+.list-main ul li a div {
+    margin: 0px 0px 0px auto;
+    font-size: 14px;
+    color: #848485;
+    font-style: italic;
+}
+.left-main .guide {
+    width: 100%;
+    height: 15%;
+    background-color: white;
+}
+.main-guide .inner-main-guide{
+    width: 100%;
+}
+.main-guide ,.inner-main-guide ul {
+    margin-right: 10px;
+}
+.main-guide .inner-main-guide ul li {
+    list-style: circle;
+    color: #0178d4;
+}
+.main-guide .inner-main-guide ul li a {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #363636;
+    display: flex
+}
+.main-guide .inner-main-guide ul li a div {
+    margin: 0px 0px 0px auto;
+    font-size: 14px;
+    color: #848485;
+    font-style: italic;
+}
+/* right main */
+.right-main .login {
+    width: 100%;
+    height: 26%;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 3px;
+}
+.form-login .input-info .type-username, .type-password {
+    margin-top: 5px;
+    display: flex;
+    margin-left: 5px;
+}
+
+.type-username span {
+    width: 48px;
+    background-color: #e8ecef;
+    border: 1px solid #cbcdd0;
+    border-radius: 5px 0px 0px 5px;
+}
+.type-password span {
+    width: 48px;
+    background-color: #e8ecef;
+    border: 1px solid #cbcdd0;
+    border-radius: 5px 0px 0px 5px;
+}
+.type-username input {
+    height: 35px;
+    background-color: #e8f0fd;
+    border: 1px solid #cbcdd0;
+}
+.type-password input {
+    height: 35px;
+    background-color: #e8f0fd;
+    border: 1px solid #cbcdd0;
+}
+.forget-password div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.forget-password div a {
+    text-decoration: none;
+    font-size: 15px;
+    font-style: italic;
+    margin-left: 180px;
+    color: #37a7e8;
+}
+
+.login-button .login-01, .login-02 {
+    width: 98%;
+    margin-left: 5px;
+    height: 40px;
+    margin-bottom: 5px;
+    font-size: 17px;
+    background-color: #37a7e8;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+.login-button .login-02 {
+    background-color: #0178d4;
+    margin-bottom: 20px;
+}
+.right-main .install-app {
+    width: 100%;
+    height: 20%;
+}
+
+.last-banner {
+    width: 100%;
+    height: 55px;
+    background-color: #37a7e7;
+}
+.last-banner .inner-last .text-coppy {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}

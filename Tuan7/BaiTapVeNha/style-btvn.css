@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/74d734ca-0eab-4cd9-871f-bca01823d872/web/VN-vi-20241021-TRIFECTA-perspective_96a4f47f-aaa1-4b9a-b38b-919c90b66b80_large.jpg);
+}
+
+#video-center {
+    text-align: center;
+}
+
+#video-center iframe {
+    width: 70%;
+    height: 700px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+#list-video #inner-list-video {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#list-video #inner-list-video #video1,
+#video2,
+#video3,
+#video4 {
+    background-color: rgba(128, 128, 128, 0.6);
+    width: 350px;
+    height: 250px;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 4%;
+    transition: all 0.3s ease-in-out;
+}
+
+#list-video #inner-list-video #video1:hover,
+#video2:hover,
+#video3:hover,
+#video4:hover {
+    transform: scale(1.1);
+}
+
+#inner-list-video iframe {
+    width: 80%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 3%;
+}
+
+#title {
+    font-size: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#buttonStyle {
+    width: 30%;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-weight: 20px;
+    transition: all 0.3s;
+}
+
+#buttonStyle:hover {
+    background-color: black;
+    color: red;
+}
+
+#more-videos {
+    font-weight: bold;
+    width: 100%;
+    height: 20%;
+    font-size: 30px;
+    border-bottom: 1px solid rgba(255, 1, 1, 0.964);
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 30px;
+}
